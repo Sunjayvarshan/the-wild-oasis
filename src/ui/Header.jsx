@@ -1,4 +1,4 @@
-import { styled } from "styled-components";
+import styled from "styled-components";
 
 const StyledHeader = styled.header`
   background-color: var(--color-grey-0);
@@ -7,7 +7,7 @@ const StyledHeader = styled.header`
 `;
 
 function Header() {
-  return <StyledHeader>Header</StyledHeader>;
+  return <StyledHeader>HEADER</StyledHeader>;
 }
 
 export default Header;
